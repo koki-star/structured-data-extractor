@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv
+
+# Secrets and local settings
+.env
+
+# Failed extractions (dead-letter queue)
+dlq/
+
+# Test cache
+.pytest_cache/
+
+# macOS system files
+.DS_Store
