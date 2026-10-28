@@ -20,3 +20,13 @@ dlq/
 
 # macOS system files
 .DS_Store
+
+# Logs
+*.log
+
+# Other local env files (keep the example)
+.env.*
+!.env.example
+
+# Editor settings
+.vscode/
