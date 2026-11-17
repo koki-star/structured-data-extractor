@@ -30,3 +30,11 @@ dlq/
 
 # Editor settings
 .vscode/
+
+# More local folders, caches and keys
+venv/
+.mypy_cache/
+.ruff_cache/
+*.pem
+*.key
+.idea/

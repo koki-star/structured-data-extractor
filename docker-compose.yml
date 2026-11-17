@@ -2,7 +2,7 @@ services:
   app:
     build: .
     ports:
-      - "8501:8501"
+      - "127.0.0.1:8501:8501"
     environment:
       # Ollama runs on your Mac, not in the container
       OLLAMA_BASE_URL: http://host.docker.internal:11434/v1
